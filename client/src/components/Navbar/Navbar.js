@@ -1,10 +1,10 @@
-import React, { useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react';
 import { Link, useHistory, useLocation } from 'react-router-dom';
-import { AppBar, Avatar, Button, Toolbar, Typography } from '@material-ui/core'
+import { AppBar, Avatar, Button, Toolbar, Typography } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import decode from 'jwt-decode';
 import useStyles from './styles';
-import logo from '../../images/logo.png'; 
+import logo from '../../images/logo.webp'; 
 
 const Navbar = () => {
     const classes =  useStyles();
@@ -37,7 +37,7 @@ const Navbar = () => {
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" style={{ textDecoration: 'none' }} className={classes.brandContainer}>
         <Typography className={classes.heading} variant="h2" align='center'>Techverse</Typography>
-        <img className={classes.image} src={logo} alt="icon" height="60" />
+        <img className={classes.image} src={logo} alt="icon"/>
       </Link>
       <Toolbar className={classes.toolbar}>
         {user ? (

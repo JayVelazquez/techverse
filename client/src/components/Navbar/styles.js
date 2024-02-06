@@ -14,10 +14,14 @@ export default makeStyles((theme) => ({
   heading: {
     color: 'rgba(3,155,229, 1)',
     fontFamily: 'Quantico, sans-serif',
+    width: '282.61px',
+    height: '72px',
   },
   image: {
     marginLeft: '15px',
     borderRadius: '14px',
+    width: '60px',
+    height: '60px',
   },
   toolbar: {
     display: 'flex',
