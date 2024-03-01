@@ -1,5 +1,5 @@
 # Techverse
-Techverse is a Full Stack CRUD social media app based on the latest technology. Allows users to connect and interact with a variety of features. 
+A MERN stack CRUD social media app based on the latest technology. Implemented features for posting, liking, unliking, commenting, searching, and personalized recommendations. Integrated secure authentication and authorization for user login. 
 
 
 ## Table of Contents
@@ -28,11 +28,11 @@ Techverse is a Full Stack CRUD social media app based on the latest technology. 
 
 
 ## Features
-- CRUD(Create, Read, Update, Delete) postings, add images, messages and hashtags.
+- CRUD(Create, Read, Update, Delete) postings, images, messages, and hashtags.
 - Authentication and Authorization with JWT and Google Oauth 2.
-- Ability to like and unlike.
-- Postings display the creator and the time it was created.
-- Search and filter by searching for the title or hashtags.
+- Ability to like and unlike posts.
+- Postings display the creator and time it was created.
+- Search and filter by title or hashtags.
 - Use Pagination to switch between pages.
 - Add comments.
 - See recommendations.
