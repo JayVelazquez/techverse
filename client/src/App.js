@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from '@material-ui/core';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core';
+import { createTheme, ThemeProvider } from '@material-ui/core';
 import { lightBlue } from '@material-ui/core/colors';
 
 import PostDetails from './components/PostDetails/PostDetails';
@@ -11,7 +11,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Auth from './components/Auth/Auth';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {
       main: lightBlue[600]
